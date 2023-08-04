@@ -1,9 +1,42 @@
-
+body {
+    margin: 0;
+    padding: 0;
+}
+.parentWrapper {
+    display: flex;
+    flex-direction: row;
+}
 .image {
     width: 40%;
     height: 100vh;
-    background-color: aqua;
+    /* background-image: url("pine-watt-2Hzmz15wGik-unsplash.jpg"); */
+    background-size: cover;
 }
 .form-body {
     width: 60%;
+    background-color: lightgray;
+}
+.heading {
+    font-family: 'Poppins';
+    font-size: small;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5%;
+}
+.innerBox {
+    display: flex;
+    flex-direction: column;
+
+}
+.box {
+    display: flex;
+    flex-direction: row;
+    background-color: aliceblue;
+}
+.bigBox {
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    align-items: center;
 }
